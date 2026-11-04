@@ -1,0 +1,16 @@
+# 忽略数据集和输出结果
+dataset/
+output/
+
+# 忽略缓存和临时文件
+__pycache__/
+*.pyc
+
+# 忽略IDE配置文件
+.idea/
+.vscode/
+
+# 忽略大体积权重文件 (除了特别小的示范权重)
+model/*.pth
+checkpoints/
+*.pth
